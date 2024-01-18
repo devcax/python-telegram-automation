@@ -10,7 +10,7 @@ def start_command(update,context):
 
 def main():
 
-    updater = Updater('5020581541:AAHPn9-TpBIbvgtU2eZkvXFe4JNgkIGXeCA', use_context=True)
+    updater = Updater('YOUR_API', use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start_command))
